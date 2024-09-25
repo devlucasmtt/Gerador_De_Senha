@@ -27,8 +27,12 @@
                     id="password">                
                 </div>
                 <div class="actions">
-                    <button id="copy2">C</button>
-                    <button id="renew">R</button>
+                    <button id="copy-1">
+                        <img src="copy.svg" width="42">
+                    </button>
+                    <button id="renew">
+                        <img src="renew.svg" width="42">
+                    </button>
                 </div>
             </div>
         </section>
@@ -41,7 +45,7 @@
     min="4" 
     max="64">
     
-    <button id="copy">Copiar senha</button>
+    <button id="copy-2">Copiar senha</button>
     </main>
     <script>
         let passwordLength = 16
@@ -71,9 +75,8 @@
         generatePassword()
     })
 
-    const copyButtonEl = document.querySelector("#copy")
-    copyButtonEl.addEventListener("click", copy)
-
+    document.querySelector("#copy-1").addEventListener("click", copy)
+    document.querySelector("#copy-2").addEventListener("click", copy)
     generatePassword()
 
     </script>
