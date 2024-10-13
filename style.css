@@ -84,19 +84,20 @@ main{
 
 .security-indicator .bar.completed{
     border-top-right-radius: 0;
-}
+};
 
 .security-indicator .bar.critical {
     background-color: #eb5757;
-  }
-  .security-indicator .bar.warning {
+  };
+.security-indicator .bar.warning {
     background-color: #f2c94c;
-  }
-  .security-indicator .bar.safe {
+  };
+.security-indicator .bar.safe {
     background-color: #27ae60;
-  }
+};
   
-  .footer {
+
+.footer {
     position: fixed;       /* Fixa a seção na parte inferior da página */
     bottom: 0;            /* Alinha a seção ao fundo */
     left: 0;              /* Alinha a seção à esquerda */
